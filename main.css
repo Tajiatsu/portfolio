@@ -44,6 +44,19 @@ img {
   height: 100%;
 } 
 
+h1 {
+  color: #fff;
+  background-color: brown;
+  font-family: "Georgia", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1.25rem auto;
+  padding: 1rem 2rem;
+  max-width: 85%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
 /* レスポンシブ対応 */
 @media (max-width: 600px) {
   .img-2col-container {
